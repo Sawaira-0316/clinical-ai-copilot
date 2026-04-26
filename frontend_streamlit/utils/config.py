@@ -1,0 +1,12 @@
+API_BASE_URL = "http://localhost:8001/api/v1"
+
+PATIENTS_ENDPOINT = f"{API_BASE_URL}/patients"
+TIMELINE_ENDPOINT = f"{API_BASE_URL}/timeline"
+NOTES_ENDPOINT = f"{API_BASE_URL}/notes"
+LABS_ENDPOINT = f"{API_BASE_URL}/labs"
+VITALS_ENDPOINT = f"{API_BASE_URL}/vitals"
+MEDICATIONS_ENDPOINT = f"{API_BASE_URL}/medications"
+SUMMARY_ENDPOINT = f"{API_BASE_URL}/patients"
+ALERTS_ENDPOINT = f"{API_BASE_URL}/patients"
+QA_ENDPOINT = f"{API_BASE_URL}/qa/ask"
+UPLOADS_ENDPOINT = f"{API_BASE_URL}/uploads/patients/csv"

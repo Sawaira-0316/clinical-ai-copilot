@@ -1,0 +1,292 @@
+/* 
+   DEFAULT STREAMLIT SIDEBAR NAV STYLING
+*/
+
+/* Sidebar nav container spacing */
+section[data-testid="stSidebar"] ul {
+  padding-left: 0 !important;
+  margin-top: 18px !important;
+}
+
+/* Remove bullets / default list look */
+section[data-testid="stSidebar"] ul li {
+  list-style: none !important;
+  margin-bottom: 10px !important;
+}
+
+/* Style each nav link like a premium card */
+section[data-testid="stSidebar"] ul li a {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+
+  padding: 12px 14px !important;
+  border-radius: 16px !important;
+
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
+
+  color: #e5e7eb !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+
+  transition: all 0.22s ease !important;
+}
+
+/* Hover */
+section[data-testid="stSidebar"] ul li a:hover {
+  background: rgba(124, 92, 252, 0.10) !important;
+  border: 1px solid rgba(124, 92, 252, 0.22) !important;
+  transform: translateX(3px) !important;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18) !important;
+}
+
+/* Active page */
+section[data-testid="stSidebar"] ul li a[aria-current="page"] {
+  background: linear-gradient(90deg, rgba(124,92,252,0.30), rgba(168,85,247,0.20)) !important;
+  border: 1px solid rgba(124, 92, 252, 0.30) !important;
+  color: #0f172a !important;
+  box-shadow: 0 12px 24px rgba(124, 92, 252, 0.22) !important;
+}
+
+/* Text inside links */
+section[data-testid="stSidebar"] ul li a p {
+  margin: 0 !important;
+  color: inherit !important;
+  font-weight: 650 !important;
+  font-size: 16px !important;
+}
+
+/* Icon base */
+section[data-testid="stSidebar"] ul li a::before {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  min-width: 34px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.07);
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* Page-specific icons */
+section[data-testid="stSidebar"] ul li:nth-child(1) a::before {
+  content: "🏠";
+}
+
+section[data-testid="stSidebar"] ul li:nth-child(2) a::before {
+  content: "👥";
+}
+
+section[data-testid="stSidebar"] ul li:nth-child(3) a::before {
+  content: "🧾";
+}
+
+section[data-testid="stSidebar"] ul li:nth-child(4) a::before {
+  content: "💬";
+}
+
+section[data-testid="stSidebar"] ul li:nth-child(5) a::before {
+  content: "📚";
+}
+
+/* Optional title above default nav */
+section[data-testid="stSidebar"] ul::before {
+  content: "ClinicalAI Copilot";
+  display: block;
+  font-size: 22px;
+  font-weight: 800;
+  color: #f5f7ff;
+  margin-bottom: 8px;
+}
+
+section[data-testid="stSidebar"] ul::after {
+  content: "Intelligent patient review dashboard";
+  display: block;
+  font-size: 13px;
+  color: #9ca3c9;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+
+
+.patient-shell {
+    background: linear-gradient(180deg, rgba(8,15,32,0.95), rgba(4,9,20,0.95));
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 22px;
+    padding: 1.3rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+.page-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 0.35rem;
+}
+.page-subtitle {
+    color: #cbd5e1;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* ── Search Input ─────────────────────────────────────── */
+.stTextInput input {
+    background: rgba(255,255,255,0.05) !important;
+    border: 1px solid rgba(124, 58, 237, 0.35) !important;
+    border-radius: 12px !important;
+    color: #0f172a !important;
+    font-size: 1rem !important;
+    padding: 0.75rem 1rem !important;
+}
+
+.stTextInput input {
+    color: #0f172a !important;
+}
+
+.stTextInput input:focus {
+    border: 1px solid rgba(124, 58, 237, 0.7) !important;
+    box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.15) !important;
+}
+
+.stTextInput label {
+    color: #cbd5e1 !important;
+    font-weight: 600 !important;
+}
+
+
+.patient-shell {
+    background: linear-gradient(135deg, rgba(10,18,40,0.95), rgba(6,10,24,0.90)) !important;
+    border: 1px solid rgba(124, 58, 237, 0.18) !important;
+    border-radius: 22px !important;
+    padding: 1.3rem 1.5rem !important;
+    margin-bottom: 1rem !important;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35) !important;
+    color: #f5f7ff !important;
+}
+
+
+/* Open Patient Button */
+div.stButton > button {
+    background: linear-gradient(90deg, #7c3aed, #2563eb) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+    font-size: 0.9rem !important;
+}
+
+div.stButton > button:hover {
+    filter: brightness(1.15) !important;
+    transform: translateY(-1px) !important;
+}
+
+
+/* Metric cards - white text */
+[data-testid="stMetric"] {
+    background: linear-gradient(180deg, rgba(8,15,32,0.95), rgba(4,9,20,0.95)) !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    border-radius: 16px !important;
+    padding: 1rem 1.2rem !important;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #94a3b8 !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #ffffff !important;
+    font-size: 2rem !important;
+    font-weight: 800 !important;
+}
+
+
+/* Text inputs white text */
+.stTextInput input {
+    color: #0f172a !important;
+    background: rgba(255,255,255,0.95) !important;
+    border: 1px solid rgba(124,58,237,0.35) !important;
+    border-radius: 12px !important;
+}
+
+/* Tab styling */
+.stTabs [data-baseweb="tab"] {
+    color: #94a3b8 !important;
+    font-weight: 600 !important;
+}
+
+.stTabs [aria-selected="true"] {
+    color: #ffffff !important;
+    border-bottom: 2px solid #7c3aed !important;
+}
+
+/* File uploader button */
+[data-testid="stFileUploader"] button {
+    background: linear-gradient(90deg, #7c3aed, #2563eb) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 12px !important;
+    font-weight: 700 !important;
+}
+
+/* Section headings white */
+.stMarkdown h3 {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+.stMarkdown p {
+    color: #cbd5e1 !important;
+}
+
+
+
+
+/* Force white text on all buttons */
+div.stButton > button,
+div.stButton > button *,
+div.stButton > button p,
+div.stButton > button span {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+/* Force visible label text */
+.stTextInput label,
+.stTextInput label p,
+.stFileUploader label,
+.stFileUploader label p {
+    color: #e2e8f0 !important;
+    -webkit-text-fill-color: #e2e8f0 !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem !important;
+    opacity: 1 !important;
+}
+
+/* Input placeholder text */
+.stTextInput input::placeholder {
+    color: #64748b !important;
+    -webkit-text-fill-color: #64748b !important;
+}
+
+/* Input text when typing */
+.stTextInput input {
+    color: #0f172a !important;
+    -webkit-text-fill-color: #0f172a !important;
+}
+
+/* File uploader area text */
+[data-testid="stFileUploaderDropzoneInstructions"] p,
+[data-testid="stFileUploaderDropzoneInstructions"] span {
+    color: #cbd5e1 !important;
+    -webkit-text-fill-color: #cbd5e1 !important;
+}
+
