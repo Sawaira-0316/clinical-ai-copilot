@@ -15,25 +15,6 @@
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Home Dashboard
-
-![Home](https://claude.ai/chat/docs/screenshots/home.png)
-
-### 👥 Patient List
-
-![Patients](https://claude.ai/chat/docs/screenshots/patients.png)
-
-### 🧾 Patient Detail
-
-![Patient Detail](https://claude.ai/chat/docs/screenshots/patient_detail.png)
-
-### 📚 Knowledge Base
-
-![Knowledge Base](https://claude.ai/chat/docs/screenshots/knowledge_base.png)
-
----
 
 ## 📌 Features
 
