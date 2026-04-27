@@ -1,7 +1,3 @@
-"""
-ai_engine/citation/citation_builder.py
-Builds citations from patient and knowledge evidence.
-"""
 
 
 class CitationBuilder:
