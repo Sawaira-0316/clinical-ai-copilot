@@ -3,20 +3,6 @@
 > A production-ready, agentic AI assistant for clinical workflows  helping doctors review patient data faster, generate evidence-based insights, and make better decisions with AI support.
 
 
----
-![Clinical AI Copilot Screenshot](https://github.com/Sawaira-0316/clinical-ai-copilot/blob/05a0a03fb5a35355340dcfdcacb97bbb61231925/home.png)
-
-## 🚀 Live Demo
-
-| Service          | URL                                                                          |
-| ---------------- | ---------------------------------------------------------------------------- |
-| 🎨 Frontend      |  |
-| ⚙️ Backend API |    |
-| 📖 Swagger Docs  |                      |
-
----
-
-
 ## 📌 Features
 
 | Feature                               | Status |
@@ -101,6 +87,19 @@ Doctor reviews answer with confidence score + sources
 | Backend Deploy  | Render                 |
 
 ---
+
+ScreenShots
+![Clinical AI Copilot Screenshot](https://github.com/Sawaira-0316/clinical-ai-copilot/blob/05a0a03fb5a35355340dcfdcacb97bbb61231925/home.png)
+
+
+
+## 🚀 Live Demo
+
+| Service          | URL                                                                          |
+| ---------------- | ---------------------------------------------------------------------------- |
+| 🎨 Frontend      |  |
+| ⚙️ Backend API |    |
+| 📖 Swagger Docs  | 
 
 ## ⚠️ Disclaimer
 
