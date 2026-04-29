@@ -90,6 +90,32 @@ Doctor reviews answer with confidence score + sources
 
 ScreenShots
 ![Clinical AI Copilot Screenshot](https://github.com/Sawaira-0316/clinical-ai-copilot/blob/05a0a03fb5a35355340dcfdcacb97bbb61231925/home.png)
+---
+
+## 🏠 Home
+![Home](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/main/home.png)
+
+---
+
+## 🧑‍⚕️ Patient
+![Patient](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/main/patient.png)
+
+---
+
+## 📋 Patient Details
+![Patient Details](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/main/patientdetails.png)
+
+---
+
+## 🧠 Knowledge Base
+![Knowledge Base](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/main/knowledge_base_detail.png)
+
+---
+
+## ⚙️ Features
+![Features](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/main/home_features.png)
+
+---
 
 
 
