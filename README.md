@@ -39,7 +39,48 @@ Step 9:  Score answer confidence (0-100%)
 Step 10: Format structured clinical response
         ↓
 Doctor reviews answer with confidence score + sources
+
 ```
+
+ScreenShots
+
+## 🏠 Home
+![Home](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/main/home.png)
+
+---
+
+## 🧠 Knowledge Base Detail
+![Knowledge Base Detail](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/692636d8fb97257088995da0bfda705125d3a390/knowledge_base%20detail.png)
+
+---
+
+## 📚 Knowledge Base
+![Knowledge Base](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/692636d8fb97257088995da0bfda705125d3a390/knowledge_base.png)
+
+---
+
+## 📋 Patient Details
+![Patient Details](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/692636d8fb97257088995da0bfda705125d3a390/patients%20details.png)
+
+---
+
+## 🧑‍⚕️ Patients
+![Patients](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/692636d8fb97257088995da0bfda705125d3a390/patients.png)
+
+
+---
+
+
+## 🚀 Live Demo
+
+| Service          | URL                                                                          |
+| ---------------- | ---------------------------------------------------------------------------- |
+| 🎨 Frontend      |  |
+| ⚙️ Backend API |    |
+| 📖 Swagger Docs  | 
+
+
+
 
 ---
 
@@ -88,42 +129,7 @@ Doctor reviews answer with confidence score + sources
 
 ---
 
-ScreenShots
 
-## 🏠 Home
-![Home](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/main/home.png)
-
----
-
-## 🧠 Knowledge Base Detail
-![Knowledge Base Detail](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/692636d8fb97257088995da0bfda705125d3a390/knowledge_base%20detail.png)
-
----
-
-## 📚 Knowledge Base
-![Knowledge Base](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/692636d8fb97257088995da0bfda705125d3a390/knowledge_base.png)
-
----
-
-## 📋 Patient Details
-![Patient Details](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/692636d8fb97257088995da0bfda705125d3a390/patients%20details.png)
-
----
-
-## 🧑‍⚕️ Patients
-![Patients](https://raw.githubusercontent.com/Sawaira-0316/clinical-ai-copilot/692636d8fb97257088995da0bfda705125d3a390/patients.png)
-
-
----
-
-
-## 🚀 Live Demo
-
-| Service          | URL                                                                          |
-| ---------------- | ---------------------------------------------------------------------------- |
-| 🎨 Frontend      |  |
-| ⚙️ Backend API |    |
-| 📖 Swagger Docs  | 
 
 ## ⚠️ Disclaimer
 
